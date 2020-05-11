@@ -1,0 +1,46 @@
+body {
+    background-image: url("https://img.olhardigital.com.br/uploads/acervo_imagens/2019/08/r16x9/20190808035955_1200_675_-_espaco__cosmos.jpg");
+    background-size:1390px;
+     height: 100vh;
+      font-family:Calibri;
+  }
+  .menu {
+    background-color: gray;
+  }
+  .menu li{
+   list-style:None;
+  }
+  a{
+    text-decoration: none;
+     font-family:Arial;
+    color:Purple;
+  } 
+  a:hover{
+    text-decoration:Underline;
+    font-family:Verdana;
+    Background-color:Yellow;}
+  
+  .menu2:hover{
+    background-color:Magenta;
+  }
+  .menu2{
+    background-color:gray;
+  }
+  .menu ul{
+    display: flex;
+    justify-content: Space-around;
+  }
+  
+  h1 {
+    text-align: center;
+    color:white;
+  }
+  h2{
+    text-align:center;
+      color:white;
+    
+  }
+  
+    
+
+  
