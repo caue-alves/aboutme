@@ -1,11 +1,30 @@
+/*reset do CSS*/
+*     {
+margin: 0;
+padding:0;
+box-sizing: border-box;
+}
 body {
     background-image: url("https://img.olhardigital.com.br/uploads/acervo_imagens/2019/08/r16x9/20190808035955_1200_675_-_espaco__cosmos.jpg");
     background-size:1390px;
      height: 100vh;
       font-family:Calibri;
+      font-size:18px;
+  }
+/*se esta tela tiver mais de 400 pixels ela se adaptará as estas condições*/
+ 
+@media (min-width: 350px){
+  body {
+   font-size 100px;
+  }
+}
+  
+  header{
+    height: 60vh;
   }
   .menu {
     background-color: gray;
+    position: fixed;
   }
   .menu li{
    list-style:None;
@@ -13,33 +32,43 @@ body {
   a{
     text-decoration: none;
      font-family:Arial;
-    color:Purple;
+    color:whitesmoke;
+    position: fixed;
+    background: Black
   } 
   a:hover{
     text-decoration:Underline;
     font-family:Verdana;
-    Background-color:Yellow;}
+    Background-color:Purple;}
   
   .menu2:hover{
-    background-color:Magenta;
+    background-color:Purple;
   }
   .menu2{
-    background-color:gray;
+    color:white;
   }
   .menu ul{
-    display: flex;
+    display: contents;
     justify-content: Space-around;
+    position:fixed;
+    background: black
   }
   
   h1 {
     text-align: center;
     color:white;
+    font-size: xx-large;
   }
   h2{
     text-align:center;
       color:white;
     
   }
+  .img-história {
+    width: 350px;
+    height: 300px}
+    
+ 
   
     
 
