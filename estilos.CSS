@@ -14,11 +14,18 @@ body {
 /*se esta tela tiver mais de 400 pixels ela se adaptará as estas condições*/
  
 @media (min-width: 350px){
-  body {
-   font-size 100px;
-  }
-}
-  
+   .h1 {
+     text-align: center;
+     font-size: 70px;
+    } 
+     .img-história {
+      width: 500px;
+      height: 450px ;
+     }
+      .a {
+       font-size: 10px;
+      }
+}     
   header{
     height: 60vh;
   }
@@ -31,21 +38,24 @@ body {
   }
   a{
     text-decoration: none;
-     font-family:Arial;
     color:whitesmoke;
     position: fixed;
-    background: Black
+    font-family: 'DM Mono', monospace;
+    font-size: 14px;
+    background-color: black;
   } 
   a:hover{
     text-decoration:Underline;
-    font-family:Verdana;
-    Background-color:Purple;}
+    Background-color:Purple; 
+  }
   
   .menu2:hover{
     background-color:Purple;
   }
   .menu2{
     color:white;
+    font-family: 'Major Mono Display', monospace;
+    text-align: center;
   }
   .menu ul{
     display: contents;
@@ -57,19 +67,49 @@ body {
   h1 {
     text-align: center;
     color:white;
-    font-size: xx-large;
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
   }
   h2{
     text-align:center;
       color:white;
-    
+      font-family: 'Amatic SC', cursive;
   }
   .img-história {
-    width: 350px;
-    height: 300px}
-    
+    width: 300px;
+    height: 250px;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    border-radius: 10%;
+  }
+  
+.element.style {
+  padding: 0.5em;
+}
  
-  
-    
+.Project{
+   Color: White;
+   font-family: 'Major Mono Display', monospace;
+ }
 
-  
+  .jajaja {
+   Color: White;
+   font-family: 'Major Mono Display', monospace; 
+ }
+
+  .tututu {
+    Color: White;
+    font-family: 'Major Mono Display', monospace;  
+  }
+  .Pojeto {
+    width: 320px ;
+    height: 280px;
+    padding: 0.5em;
+    border-radius:10% ;
+  }
+
+  .grid {
+    text-align: center;
+    grid-template-columns: 200px 200px;
+    height: 100vh;
+  }
