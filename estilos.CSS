@@ -22,7 +22,7 @@ body {
       width: 500px;
       height: 450px ;
      }
-      .a {
+      .a li {
        font-size: 10px;
       }
 }     
@@ -33,35 +33,29 @@ body {
     background-color: gray;
     position: fixed;
   }
-  .menu li{
-   list-style:None;
-  }
-  a{
-    text-decoration: none;
-    color:whitesmoke;
-    position: fixed;
-    font-family: 'DM Mono', monospace;
-    font-size: 14px;
-    background-color: black;
-  } 
-  a:hover{
-    text-decoration:Underline;
-    Background-color:Purple; 
-  }
-  
-  .menu2:hover{
-    background-color:Purple;
-  }
-  .menu2{
-    color:white;
-    font-family: 'Major Mono Display', monospace;
-    text-align: center;
-  }
   .menu ul{
     display: contents;
     justify-content: Space-around;
     position:fixed;
     background: black
+  }
+
+
+  
+  a ul:hover{
+    text-decoration:Underline;
+    Background-color:Purple; 
+  }
+  
+  .menu2:hover{
+  font-size: 35px;
+  }
+  .menu2{
+    color:white;
+    font-family: 'Major Mono Display', monospace;
+    text-align: center;
+    font-size: 25px;
+    transition: font-size 2s;
   }
   
   h1 {
@@ -90,22 +84,30 @@ body {
 .Project{
    Color: White;
    font-family: 'Major Mono Display', monospace;
- }
+   font-size: 25px;
+   transition: font-size 2s;
+  }
 
   .jajaja {
    Color: White;
    font-family: 'Major Mono Display', monospace; 
+   font-size: 25px;
+   transition: font-size 2s;
  }
 
   .tututu {
     Color: White;
     font-family: 'Major Mono Display', monospace;  
+    font-size: 25px;
+    transition: font-size 2s;
   }
   .Pojeto {
     width: 320px ;
     height: 280px;
     padding: 0.5em;
     border-radius:10% ;
+    font-size: 25px;
+    transition: font-size 2s;
   }
 
   .grid {
@@ -113,3 +115,82 @@ body {
     grid-template-columns: 200px 200px;
     height: 100vh;
   }
+  .contato {
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    color: white;
+  }
+  .contato h3 {
+    background-color: black;
+  }
+  
+  .a :target {
+    size: 100px;
+  }
+
+  .grid-icons a{
+    font-size: 50px;
+    text-align: center;
+  }
+  .grid-icons a:hover {
+    background-color: black;
+  }
+  .li {
+    font-family: 'DM Mono', monospace;
+  }
+
+  .Home a {
+    
+    background-color: black;
+    font-family: 'DM Mono', monospace;
+    color:White;
+    text-decoration: none;
+    font-size: 14px;
+    position: fixed;
+    transition: background-color 1s, color 1s;
+  }
+
+  .Home a:hover{
+    background-color: white;
+    text-decoration: underline;
+    color: black;
+  }
+
+.contato a{
+  color: white;
+  text-decoration: none;
+}
+.contato a:active,
+.contato a:hover{
+  text-shadow: 0px 0px 10px white;
+}
+.jajaja:hover {
+  font-size: 35px;
+}
+.tututu:hover {
+  font-size: 35px;
+}
+
+.Project:hover {
+  font-size: 35px;
+}
+
+.Pojeto:hover {
+  font-size: 35px;
+}
+
+h1,
+h2 {
+  transform: scale(0.3) translateY(50vh)  ;
+  opacity: 0.5;
+
+  animation:linear 2s animatítulo forwards;
+}
+
+@keyframes animatítulo {
+  100%{
+    transform: scale(1) translateY(0)  ;
+    opacity: 1;
+  
+  }
+}
