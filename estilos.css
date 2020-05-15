@@ -18,14 +18,10 @@ body {
      text-align: center;
      font-size: 70px;
     } 
-     .img-história {
-      width: 500px;
-      height: 450px ;
-     }
       .a li {
        font-size: 10px;
-      }
-}     
+   }
+}      
   header{
     height: 60vh;
   }
@@ -75,6 +71,7 @@ body {
     padding: 0.5em;
     margin-bottom: 0.5em;
     border-radius: 10%;
+    text-align: center;
   }
   
 .element.style {
@@ -194,3 +191,61 @@ h2 {
   
   }
 }
+.sobre {
+  font-family: 'Amatic SC', cursive;
+  font-size: 35px;
+  color: white;
+  display: contents;
+  height:70vh;
+}
+
+.White {
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  font-size: 35px; 
+  padding: 3em; 
+}
+
+.Brec {
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  font-size: 35px; 
+  padding: 3em; 
+}
+
+.p {
+  font-family: 'Amatic SC', cursive; 
+}
+
+.purp {
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  font-size: 35px; 
+  padding: 3em; 
+}
+
+.uait {
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  font-size: 35px; 
+  padding: 3em; 
+}
+
+.sobre p {
+  padding: 0em;
+  margin-bottom: 20em;
+  background-color: black;
+  font-size: 40px;
+}
+
+.uait a {
+ color: cyan;
+ transition: font-size 1s;
+}
+
+.uait a:hover {
+  font-size: 45px;
+}
+
+
+
